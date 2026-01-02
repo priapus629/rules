@@ -1,3 +1,6 @@
+#name=Talkatone
+#desc=Talkatone 部分去广告规则
+
 DOMAIN-SUFFIX,ads.inmobi.com
 DOMAIN-SUFFIX,adsappier.com
 DOMAIN-SUFFIX,amazon-adsystem.com
