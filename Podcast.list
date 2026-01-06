@@ -1,0 +1,10 @@
+# NAME: Podcast
+
+DOMAIN-SUFFIX,amp-api.podcasts.apple.com
+DOMAIN-SUFFIX,podcasts.apple.com
+DOMAIN-SUFFIX,bag.itunes.apple.com
+DOMAIN-SUFFIX,bookeeper.itunes.apple.com
+DOMAIN-SUFFIX,firstory.me
+DOMAIN-SUFFIX,soundon.fm
+DOMAIN-SUFFIX,pse.is
+USER-AGENT,Podcast*
