@@ -1,0 +1,14 @@
+#!name=Perplexity AI
+#!desc=选择支持的地区
+#!author=lodepuly
+#!homepage=https://github.com/fmz200/wool_scripts
+#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/author/NaiSi_01.png
+#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/AI.list
+#!tg-channel=https://t.me/inaisi
+#!date=2025-10-03 21:12:08
+#############################################
+
+# Perplexity AI
+DOMAIN-SUFFIX, pplx.ai
+DOMAIN-SUFFIX, perplexity.ai
+DOMAIN-SUFFIX, perplexity.com
