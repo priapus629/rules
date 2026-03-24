@@ -1,4 +1,4 @@
-#!name=Perplexity AI
+#!name=Cloudflare Shield
 #!desc=选择支持的地区
 #!author=lodepuly
 #!homepage=https://github.com/fmz200/wool_scripts
@@ -12,3 +12,4 @@
 DOMAIN-SUFFIX, pplx.ai
 DOMAIN-SUFFIX, perplexity.ai
 DOMAIN-SUFFIX, perplexity.com
+DOMAIN-SUFFIX, rfchost.com
