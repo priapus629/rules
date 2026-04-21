@@ -1,0 +1,26 @@
+#!name=emby代理
+#############################################
+
+# 通用
+DOMAIN, auto.liuerao.dpdns.org
+DOMAIN, auto.dolby.dpdns.org
+DOMAIN, fd.dirige.de5.net
+DOMAIN, auto.embys.dpdns.org
+
+# ok
+DOMAIN, link00.okemby.org
+DOMAIN, link01.okemby.org
+DOMAIN, emby.enic65.eu.org
+DOMAIN, ok.axuitomo.ggff.net
+
+# oasis
+DOMAIN, emby.noteit.eu.org
+
+
+# emos
+DOMAIN, emos.ujmb.dpdns.org
+DOMAIN, emos.saga8.dpdns.org
+DOMAIN, emos.goldenarch.qzz.io
+DOMAIN, emosbest.indevs.in
+DOMAIN, emos.ujmb.dpdns.org
+DOMAIN, emos.12321.us.ci
