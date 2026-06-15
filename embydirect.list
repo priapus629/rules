@@ -1,9 +1,11 @@
-#!name=emby直连
+#!name=直连
 #############################################
 
 # 通用
 DOMAIN, emby.noomi.eu.cc
 
+# scidownload
+DOMAIN-SUFFIX, scidownload.com
 
 # ok
 DOMAIN, okemby.wangjunqiang.indevs.in
