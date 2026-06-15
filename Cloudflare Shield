@@ -16,3 +16,7 @@
 # IDC
 DOMAIN-SUFFIX, rfchost.com
 DOMAIN-SUFFIX, dmit.io
+
+# elsevier
+DOMAIN-SUFFIX, elsevier.com
+DOMAIN-SUFFIX, sciencedirect.com
