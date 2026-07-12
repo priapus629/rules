@@ -1,0 +1,15 @@
+#!name=VVebo 时间线修复（HTTP/2 主动取数版）
+#!desc=修复 VVebo 用户时间线和我的页面；不依赖 H2 下的 URL 改写后二次响应匹配，可与需要 MitM-over-HTTP/2 的模块共存。启用前请停用旧 VVebo 修复模块及其他微博去广告模块。
+#!author=suiyuran, Codex compatibility patch
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/VVebo.png
+#!date=2026-07-11
+
+[Script]
+VVebo 记录用户 ID = type=http-request, pattern=^https:\/\/api\.weibo\.cn\/2\/remind\/unread_count\?, script-path=VVebo_h2_direct.js, engine=jsc, timeout=15, script-update-interval=86400
+
+VVebo 主动修复时间线 = type=http-response, pattern=^https:\/\/api\.weibo\.cn\/2\/statuses\/user_timeline\?, script-path=VVebo_h2_direct.js, requires-body=true, max-size=1048576, engine=jsc, timeout=15, script-update-interval=86400
+
+VVebo 修复我的页面 = type=http-response, pattern=^https:\/\/api\.weibo\.cn\/2\/cardlist\?, script-path=VVebo_h2_direct.js, requires-body=true, max-size=1048576, engine=jsc, timeout=15, script-update-interval=86400
+
+[MITM]
+hostname = %APPEND% api.weibo.cn
