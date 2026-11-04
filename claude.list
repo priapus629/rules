@@ -1,0 +1,52 @@
+# Claude.list
+# Shadowrocket / Loon
+
+# Claude 核心
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,ant.dev
+DOMAIN-SUFFIX,antspace.dev
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claudeacademy.com
+DOMAIN-SUFFIX,claudestudio.com
+DOMAIN-SUFFIX,chatbotclaude.com
+
+# Claude CDN：精确匹配
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
+
+# Claude 内容与连接器
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
+
+# Claude 监控与统计：部分服务由多个网站共用
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,hexagon-analytics.com
+
+# 登录、验证与第三方服务
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,intercomassets.com
+DOMAIN,anthropic.auth0.com
+DOMAIN,accounts.google.com
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,challenges.cloudflare.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,featuregates.org
+
+# 截图中的宽泛关键词规则：也会匹配其他网站的相关域名
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sift
