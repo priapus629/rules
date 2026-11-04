@@ -16,4 +16,5 @@ DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,platform.claude.com
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,anthropic.auth0.com
+DOMAIN-SUFFIX,claudeusercontent.com
 USER-AGENT,Podcast*
