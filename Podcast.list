@@ -11,4 +11,9 @@ DOMAIN-SUFFIX,soundon.fm
 DOMAIN-SUFFIX,pse.is
 DOMAIN-SUFFIX,gvdb.org
 DOMAIN-SUFFIX,otokoki.net
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,platform.claude.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,anthropic.auth0.com
 USER-AGENT,Podcast*
