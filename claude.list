@@ -41,23 +41,6 @@ DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,hexagon-analytics.com
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sift
-# ChatGPT
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,sora.com
-DOMAIN-SUFFIX,openai.org
-DOMAIN-SUFFIX,chatgpt.site
-DOMAIN-SUFFIX,oaistatsig.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,openaiassets.blob.core.windows.net
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicom.imgix.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
 # Aiip.si DNS 泄露检测：探测域名跟 AI 域名同一出口与 DNS
 DOMAIN-SUFFIX,d.aiip.si
 # Anthropic IP 段兜底（官方公布）
